@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeStepGranularity="1sp"
+        android:textStyle="bold"
+        android:textColor="#235a81"
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2" />
+
+
+    <TextView
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeStepGranularity="1sp"
+        android:id="@+id/type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#235a81"
+        android:layout_weight="0.2"
+        android:textStyle="bold" />
+
+    <TextView
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeStepGranularity="1sp"
+        android:textAlignment="center"
+        android:id="@+id/nullable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#235a81"
+        android:layout_weight="0.2"
+        android:textStyle="bold" />
+
+    <TextView
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeStepGranularity="1sp"
+        android:textAlignment="textEnd"
+        android:id="@+id/unique"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#235a81"
+        android:layout_weight="0.2"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

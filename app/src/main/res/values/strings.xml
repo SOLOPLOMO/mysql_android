@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">JNI_android</string>
+    <item type="id" name="field_nullable"/>
+    <item type="id" name="field_type"/>
+    <item type="id" name="field_name"/>
+</resources>

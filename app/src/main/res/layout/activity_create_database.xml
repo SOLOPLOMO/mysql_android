@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:background="@color/header_color"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back_on_main"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/left_arrow"
+            android:layout_width="22dp"
+            android:padding="12dp"
+            android:layout_marginLeft="3.5dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#235a81"
+            android:text="Δημιουργία Νέας ΒΔ"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/dbname"
+            android:textSize="14dp"
+            android:textColorHint="#808080"
+            android:hint="Ονομα Βάσης"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <Button
+            android:textSize="12dp"
+            android:text="Δημιουργία Βάσης"
+            android:id="@+id/create_database"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            ></Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
